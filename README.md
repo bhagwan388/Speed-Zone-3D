@@ -1,63 +1,99 @@
-# 3D Car Racing Game 
+Speed-Zone-3D: 3D Car Racing Game
+=================================
 
-This project is a thrilling racing game developed in Unity where players can race through dynamic tracks, compete against AI opponents, and strive for victory. This repository contains the source code and assets for a 3D car racing game developed in Unity.
+Speed-Zone-3D is an immersive 3D car racing game developed in Unity, showcasing advanced computer graphics, realistic vehicle physics, and AI-driven competition. Race against a challenging computer opponent on a visually rich circuit, experience dynamic environmental effects, and enjoy responsive, physics-based controls—all within a stadium-like atmosphere.
 
-## **Video of gameplay:** 
-https://drive.google.com/file/d/1CK6mHOhaFlUuTppkuB3AMPAOW__CsQh8/view?usp=sharing
+Demo and Repository
+-------------------
 
-## Features Implemented
-#### Car Customization
-- Changed car materials and adjusted car body, glass, wheels, and fenders colors to enhance visual appeal.
+*   **Gameplay Demo Video:** [Watch Here]()
+    
 
-#### Terrain Creation
-- Created a terrain with various landscapes, including mountainous regions, grassy plains, dense forests, and a lake.
+Features
+--------
 
-#### Circuit Design
-- Utilized EasyRoads3D plugin to design and create the racing circuit.
-- Designed a loop circuit around the terrain, avoiding steep drops and tight turns.
+*   **Physics-Based Racing:** Realistic vehicle dynamics including acceleration, braking, steering, gear shifting, and responsive suspension.
+    
+*   **Challenging AI Opponent:** Compete against a computer-controlled racer powered by advanced pathfinding and adaptive driving behaviors1.
+    
+*   **Immersive Environment:** Detailed terrain with mountains, plains, textured surfaces (grass, snow), and decorative elements like trees, rocks, and spectator stands.
+    
+*   **Dynamic Visual Effects:** Tire marks, exhaust smoke, functional headlights/taillights, and responsive mudguards enhance realism.
+    
+*   **Multi-Layered Audio:** Engine sounds, gear-shifting effects, and spatial audio provide an engaging soundscape.
+    
+*   **User Interface:** Minimalist in-game HUD, intuitive menus for car and track selection, and clear lap counters for race progression.
+    
+*   **Modular Asset Organization:** Structured asset folders, prefab system, and Level of Detail (LOD) for optimized performance.
+    
+*   **Self-Recovery System:** Cars automatically right themselves if overturned, ensuring smooth gameplay.
+    
+*   **Shortcuts and Surprises:** Track shortcuts offer alternative routes and strategic depth.
+    
 
-#### Camera Setup
-- Configured a multipurpose camera rig to provide dynamic views of the racing action. Adjusted camera settings for realistic tracking of the player's car during gameplay.
+Gameplay Overview
+-----------------
 
-#### AI Opponents
-- Implemented AI-controlled opponent cars to compete against the player.
-- Created a series of waypoints for AI cars to follow the designated racing circuit automatically.
+*   **Game Mode:** Race against one AI opponent over three laps on a circular circuit. First to finish three laps wins.
+    
+*   **Car Selection:** Choose between two car models (red or blue), each with distinct visual and physical properties.
+    
+*   **Track Selection:** Select from available circuits (circular or zigzag).
+    
+*   **Lap System:** Progress is tracked with a lap counter; invisible barriers prevent shortcut exploitation at the finish line.
+    
+*   **HUD:** Displays current lap out of three, ensuring players can track their progress.
+    
 
-#### Sound or FX
-- Integrated sound effects such as engine sounds and tire screeches to enhance the gaming experience.
+Technical Highlights
+--------------------
 
-#### Main Menu
-- Main menu allows user to choose a car from two options: Red and Blue, and choose a track from two options: Circular and ZigZag.
+**Unity Engine Utilization**
 
-#### Car Selection 
-- Car Selection Menu, with the help of scripts, is added to allow user to select a car which is then saved as user pref. Then, the car is spawned into any of the two tracks (scenes) that the user chooses. One of the cars has a different drag so it moves faster than the other. Also, colors of both cars are different.
+*   Built with Unity’s physics engine, scriptable render pipeline, terrain system, and particle effects for a cohesive experience.
+    
+*   C# scripting manages race logic, vehicle controls, AI, and UI.
+    
 
-#### Track Selection
-- Track Selection Menu is added to allow user to choose a track. If user chooses Circular, the scene (level) with circular track opens, otherwise the zigzag scene opens.
+**AI System**
 
-#### Lap System
-A lap system is added and user can only win after the third lap. This is implemented using a lap counter that keeps track of the laps. Everytime the user crosses the finish mark, the lap count increments.  
-**Note:** For the purpose of the demo, I went backward to cross the finish line and show how the lap system works. However, for the actual game, an invisible block is place between the start and finish points so user cannot win by going backward to cross the finish line. 
+*   AI follows waypoints, adapts speed for corners, and uses randomized patterns for human-like driving.
+    
+*   Dynamic collision avoidance and multiple braking strategies prevent robotic behavior.
+    
 
-#### Shortcuts
-- Shortcuts are placed in both circuits to add element of surprise and alternatives for player.
+**Audio System**
 
-#### HUD - Display Lap Count
-- A Display allows user to see how many laps out of total 3 have been elapsed. The user wins after the 3rd lap.
-## Video Demo
+*   Multi-channel engine audio with dynamic crossfading and pitch modulation based on real-time vehicle physics.
+    
+*   Spatial audio features for immersive sound based on camera position and vehicle speed.
+    
 
-**Updated demos:**
+Getting Started
+---------------
 
-**Intro of game mechanics:** 
-https://drive.google.com/file/d/1VY7UbAgb04RMNQ4WqHYBFBgfaMn2oAPW/view?usp=drive_link   
+1.  bashgit clone 
+    
+2.  **Open in Unity:**Use Unity 2022.3.58f1 or later for best compatibility.
+    
+3.  **Run the Game:**Open the main scene (Assets/MainMenu.unity) and press Play.
+    
 
-**Video of gameplay:** 
-https://drive.google.com/file/d/1CK6mHOhaFlUuTppkuB3AMPAOW__CsQh8/view?usp=sharing
+Controls
+--------
 
-**Initial demo:**
-https://drive.google.com/file/d/1hCSG38Vvd5IGa7sIkvLsyT7sUcZqRdov/view?usp=sharing 
+*   **Steering:** Arrow keys or WASD
+    
+*   **Acceleration/Braking:** Up/Down arrows or W/S
+    
+*   **Handbrake:** Spacebar
+    
+*   **Menu Navigation:** Mouse
+    
 
-### All requirements of the assignment are met.
+Asset Credits
+-------------
 
-## Main Scene
-[scene_inclass.unity file contains the main scene](Assets/MainMenu.unity)
+*   Unity Technologies (Unity Engine)1
+    
+*   EasyRoads3D (free version) for circuit design
