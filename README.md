@@ -72,11 +72,12 @@ Technical Highlights
 Getting Started
 ---------------
 
-1.  bashgit clone 
+```git clone viveksapkal2793/Speed-Zone-3D.git
+```
     
-2.  **Open in Unity:**Use Unity 2022.3.58f1 or later for best compatibility.
+*  **Open in Unity:** Use Unity 2022.3.58f1 or later for best compatibility.
     
-3.  **Run the Game:**Open the main scene (Assets/MainMenu.unity) and press Play.
+*  **Run the Game:** Open the main scene (Assets/MainMenu.unity) and press Play.
     
 
 Controls
