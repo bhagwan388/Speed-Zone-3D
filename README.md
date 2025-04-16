@@ -6,7 +6,7 @@ Speed-Zone-3D is an immersive 3D car racing game developed in Unity, showcasing 
 Demo and Repository
 -------------------
 
-*   **Gameplay Demo Video:** [Watch Here]()
+*   **Gameplay Demo Video:** [Watch Here](https://drive.google.com/file/d/16uTexETzOL5jCsDZNIhJQgXWPApcBzF_/view)
     
 
 Features
@@ -72,7 +72,8 @@ Technical Highlights
 Getting Started
 ---------------
 
-```git clone viveksapkal2793/Speed-Zone-3D.git
+```
+git clone viveksapkal2793/Speed-Zone-3D.git
 ```
     
 *  **Open in Unity:** Use Unity 2022.3.58f1 or later for best compatibility.
