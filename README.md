@@ -3,7 +3,7 @@ Speed-Zone-3D: 3D Car Racing Game
 
 Speed-Zone-3D is an immersive 3D car racing game developed in Unity, showcasing advanced computer graphics, realistic vehicle physics, and AI-driven competition. Race against a challenging computer opponent on a visually rich circuit, experience dynamic environmental effects, and enjoy responsive, physics-based controls—all within a stadium-like atmosphere.
 
-Demo and Repository
+Demo
 -------------------
 
 *   **Gameplay Demo Video:** [Watch Here](https://drive.google.com/file/d/16uTexETzOL5jCsDZNIhJQgXWPApcBzF_/view)
